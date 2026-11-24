@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KŌBO® — Streetwear nacional · Drop 07 "Concreto"</title>
+  <meta name="description" content="KŌBO® — streetwear de São Paulo. Modelagens boxy e oversized em sarja pesada e nylon ripstop. Drop 07 &quot;Concreto&quot; no ar.">
+  <meta name="theme-color" content="#0e0e0d">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/products.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="page">
+
+    <!-- 1. Barra de aviso -->
+    <div class="announce" id="announce" role="region" aria-label="Avisos da loja">
+      <div class="announce__track">
+        <p class="announce__group">
+          <span>FRETE GRÁTIS ACIMA DE R$ 399</span>
+          <span>DROP 07 "CONCRETO" NO AR</span>
+          <span>ATÉ 6X SEM JUROS</span>
+        </p>
+        <p class="announce__group announce__group--dup" aria-hidden="true">
+          <span>FRETE GRÁTIS ACIMA DE R$ 399</span>
+          <span>DROP 07 "CONCRETO" NO AR</span>
+          <span>ATÉ 6X SEM JUROS</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- 2. Header -->
+    <header class="site-header">
+      <div class="site-header__left">
+        <nav class="main-nav" aria-label="Categorias">
+          <a href="#">NOVIDADES</a>
+          <a href="#">CAMISETAS</a>
+          <a href="#">CALÇAS</a>
+          <a href="#">JAQUETAS</a>
+          <a href="#">ACESSÓRIOS</a>
+          <a href="#" class="is-accent">OUTLET</a>
+        </nav>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="menu-toggle__icon" aria-hidden="true"></span>
+          <span class="menu-toggle__label">MENU</span>
+        </button>
+      </div>
+
+      <a class="logo" href="#" aria-label="KŌBO — página inicial">KŌBO®</a>
+
+      <div class="utility-nav">
+        <a href="#" class="utility-nav__secondary">BUSCAR</a>
+        <a href="#" class="utility-nav__secondary">CONTA</a>
+        <button class="cart-toggle" type="button" aria-haspopup="dialog" aria-controls="cart">
+          SACOLA [<span class="cart-count" data-cart-count>0</span>]
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu" hidden>
+        <nav class="mobile-menu__nav" aria-label="Categorias">
+          <a href="#">NOVIDADES</a>
+          <a href="#">CAMISETAS</a>
+          <a href="#">CALÇAS</a>
+          <a href="#">JAQUETAS</a>
+          <a href="#">ACESSÓRIOS</a>
+          <a href="#" class="is-accent">OUTLET</a>
+        </nav>
+        <div class="mobile-menu__utility">
+          <a href="#">BUSCAR</a>
+          <a href="#">CONTA</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="conteudo">
+
+      <!-- 3. Hero -->
+      <section class="hero placeholder" aria-labelledby="hero-title">
+        <p class="hero__ph">EM BREVE</p>
+        <div class="hero__inner">
+          <div class="hero__heading">
+            <p class="hero__kicker">DROP 07 / FW26</p>
+            <h1 class="hero__title" id="hero-title">CONCRETO</h1>
+          </div>
+          <div class="hero__side">
+            <p class="hero__text">Modelagens boxy em sarja pesada e nylon ripstop. Peças feitas para o ritmo da cidade.</p>
+            <a class="btn-primary" href="#mais-vendidos">VER DROP →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Faixa de categorias -->
+      <nav class="cats" aria-label="Categorias em destaque">
+        <a href="#"><span>Camisetas</span><span class="cats__count">42</span></a>
+        <a href="#"><span>Calças</span><span class="cats__count">28</span></a>
+        <a href="#"><span>Jaquetas</span><span class="cats__count">11</span></a>
+        <a href="#"><span>Acessórios</span><span class="cats__count">19</span></a>
+      </nav>
+
+      <!-- 5. Mais vendidos -->
+      <section class="bestsellers" id="mais-vendidos" aria-labelledby="bestsellers-title">
+        <div class="section-head">
+          <h2 class="section-title" id="bestsellers-title">Mais vendidos</h2>
+          <a class="link-underline" href="#">VER TUDO</a>
+        </div>
+        <ul class="product-grid" id="product-grid"></ul>
+      </section>
+
+      <!-- 6. Institucional -->
+      <section class="about" aria-label="Sobre a KŌBO">
+        <div class="about__media placeholder">
+          <span class="ph-label">EM BREVE</span>
+        </div>
+        <div class="about__body">
+          <p class="about__label">SOBRE A KŌBO — SÃO PAULO, 2021</p>
+          <p class="about__text">Silhuetas amplas, tecidos de trabalho e referências do vestuário técnico japonês — costurado no Brás, pensado para a rua.</p>
+          <a class="link-underline" href="#">NOSSA HISTÓRIA</a>
+        </div>
+      </section>
+
+      <!-- 7. Newsletter -->
+      <section class="newsletter" aria-labelledby="newsletter-title">
+        <h2 class="newsletter__title" id="newsletter-title">Entre na lista.<br>Acesso antecipado aos drops.</h2>
+        <form class="newsletter__form" id="newsletter-form" novalidate>
+          <div class="newsletter__field">
+            <label class="visually-hidden" for="newsletter-email">Seu e-mail</label>
+            <input id="newsletter-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="seu@email.com" aria-describedby="newsletter-msg" required>
+            <button type="submit">INSCREVER →</button>
+          </div>
+          <p class="newsletter__msg" id="newsletter-msg" aria-live="polite"></p>
+        </form>
+      </section>
+
+    </main>
+
+    <!-- 8. Rodapé -->
+    <footer>
+      <div class="site-footer">
+        <div class="site-footer__logo">KŌBO®</div>
+        <nav class="site-footer__col" aria-label="Ajuda">
+          <p class="site-footer__label">AJUDA</p>
+          <a href="#">Trocas e devoluções</a>
+          <a href="#">Rastrear pedido</a>
+          <a href="#">Guia de medidas</a>
+          <a href="#">Perguntas frequentes</a>
+        </nav>
+        <nav class="site-footer__col" aria-label="Institucional">
+          <p class="site-footer__label">INSTITUCIONAL</p>
+          <a href="#">Sobre</a>
+          <a href="#">Lojas parceiras</a>
+          <a href="#">Trabalhe conosco</a>
+          <a href="#">Política de privacidade</a>
+        </nav>
+        <div class="site-footer__col">
+          <p class="site-footer__label">CONTATO</p>
+          <span>(11) 90000-0000</span>
+          <span>atendimento@kobo.com.br</span>
+          <span>R. Fictícia, 210 — Brás, SP</span>
+        </div>
+      </div>
+      <div class="subfooter">
+        <span>© 2026 KŌBO STREETWEAR LTDA</span>
+        <span class="subfooter__credit">made by <strong>Matheus Yoshida</strong></span>
+        <span class="subfooter__pay">PIX · CARTÃO · BOLETO</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Sacola (drawer lateral) -->
+  <dialog class="cart" id="cart" aria-labelledby="cart-title">
+    <div class="cart__panel">
+      <div class="cart__head">
+        <h2 class="cart__title" id="cart-title">SACOLA [<span data-cart-count>0</span>]</h2>
+        <button class="cart__close" type="button" data-cart-close>FECHAR ✕</button>
+      </div>
+
+      <div class="cart__ship">
+        <p class="cart__ship-text" id="cart-ship-text"></p>
+        <div class="cart__bar" aria-hidden="true"><span id="cart-bar-fill"></span></div>
+      </div>
+
+      <ul class="cart__items" id="cart-items"></ul>
+
+      <div class="cart__empty" id="cart-empty" hidden>
+        <p>Sua sacola está vazia.</p>
+        <a class="link-underline" href="#mais-vendidos" data-cart-close>VER MAIS VENDIDOS</a>
+      </div>
+
+      <div class="cart__foot" id="cart-foot">
+        <div class="cart__subtotal">
+          <span class="cart__label">SUBTOTAL</span>
+          <span class="cart__subtotal-value" id="cart-subtotal">R$ 0,00</span>
+        </div>
+        <p class="cart__inst" id="cart-inst"></p>
+        <button class="btn-primary btn-primary--block" type="button" id="cart-checkout">FINALIZAR COMPRA →</button>
+        <p class="cart__note" id="cart-note" aria-live="polite"></p>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Avisos para leitores de tela -->
+  <p class="visually-hidden" id="live-region" aria-live="polite"></p>
+
+  <template id="tpl-product">
+    <li class="product">
+      <div class="product__media placeholder placeholder--fine">
+        <span class="ph-label">EM BREVE</span>
+        <span class="product__tag" data-slot="tag"></span>
+      </div>
+      <h3 class="product__name" data-slot="name"></h3>
+      <div class="product__buy">
+        <div class="product__prices">
+          <span class="product__price" data-slot="price"></span>
+          <span class="product__inst" data-slot="inst"></span>
+        </div>
+        <button class="btn-add" type="button" data-slot="add">+ ADICIONAR</button>
+      </div>
+    </li>
+  </template>
+
+  <template id="tpl-cart-item">
+    <li class="cart-item">
+      <div class="cart-item__media placeholder placeholder--fine" aria-hidden="true"></div>
+      <div class="cart-item__info">
+        <p class="cart-item__name" data-slot="name"></p>
+        <p class="cart-item__unit" data-slot="unit"></p>
+        <div class="cart-item__row">
+          <div class="qty" role="group" data-slot="qty-group">
+            <button class="qty__btn" type="button" data-act="dec">−</button>
+            <span class="qty__val" data-slot="qty"></span>
+            <button class="qty__btn" type="button" data-act="inc">+</button>
+          </div>
+          <button class="cart-item__remove" type="button" data-act="remove">REMOVER</button>
+        </div>
+      </div>
+      <p class="cart-item__total" data-slot="total"></p>
+    </li>
+  </template>
+</body>
+</html>
